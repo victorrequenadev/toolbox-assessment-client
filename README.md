@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Toolbox Technical Assessment – Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a front-end technical assessment for Toolbox, it was created following the steps and requirements described in the second stage of Toolbox's Coding Challenge.
 
-## Available Scripts
+## The Project
 
-In the project directory, you can run:
+This section is intended to bring more information about the project:
 
-### `npm start`
+### Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the project
+2. Install all dependencies by running `npm install`
+3. Start the project by running `npm run start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies
 
-### `npm test`
+- The project was built using React, React-Bootstrap, Bootstrap and CSS Modules for layouts.
+- SWR and Axios were used for the data-fetching functionality.
+- Custom fonts were added by using the Google Fonts CSS API.
+- Prettier was used to enforce code styles.
+- ESLint was used to lint code and detect errors.
+- Husky and lint-staged were used to add pre-commit hooks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The Challenge
 
-### `npm run build`
+This section contains the challenge itself:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Develop a React Application that shall act as a client of the already-developed API. It should allow to visualize the data coming from the `/files/data` endpoint in an organized manner on screen.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Layout
 
-### `npm run eject`
+Using React + React Bootstrap, a screen similar to this wireframe (see next) must be created.  
+![Wireframe](https://cs1.ssltrust.me/index.php/apps/files_sharing/ajax/publicpreview.php?x=3360&y=1192&a=true&file=fullstackfrontend.png&t=ECH9VusiMmi3ac1&scalingup=0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technical Requirements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Use functional programming and React Hooks.
+- The provided code should run using NodeJS 16 and should not depend on globally-installed dependencies, environment variables or configurations of any OS.
+- Code must be written using JavaScript (ES6+).
+- Tools like TypeScript, Dart, Elm, or similar are not allowed.
+- Regarding libraries and frameworks, you can use your desired version of:
+  - Webpack: https://webpack.js.org/
+  - React: https://reactjs.org/
+  - React Bootstrap: https://react-bootstrap.github.io/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Victor Requena (@victorrequenadev)
