@@ -25,13 +25,13 @@ function App() {
   }, [data, error, isLoading]);
 
   return (
-    <div className="container-xl min-vh-100 mx-auto d-flex flex-column gap-2 align-items-center">
+    <div className="container-xl min-vh-100 mx-auto d-flex flex-column gap-3 align-items-center">
       <header className="w-100 py-3 bg-danger bg-opacity-75 border border-danger">
         <h1 className="m-0 fs-3 fw-bold text-white">
-          Toolboox Technical Assessment &ndash; Client
+          Toolboox Technical Assessment
         </h1>
       </header>
-      <main className="w-100 d-flex flex-column flex-fill">
+      <main className="w-100 d-flex px-xl-5 flex-column flex-fill">
         {isLoading ? (
           <div className="w-100 d-flex flex-fill justify-content-center align-items-center">
             <Spinner animation="border" />
